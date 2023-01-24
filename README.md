@@ -102,8 +102,8 @@ npm install -D concurrently nodemon
 {
   "scripts": {
     "build": "npx tsc",
-    "start": "node dist/index.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+    "start": "node dist/server.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/server.js\""
   }
 }
 ```
